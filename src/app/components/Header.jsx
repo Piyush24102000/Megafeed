@@ -2,17 +2,23 @@
 import React from "react";
 import Link from "next/link";
 import { Navbar } from "flowbite-react";
+import Image from "next/image";
 
 const Header = () => {
   return (
     <div>
       <Navbar fluid rounded style={{ backgroundColor: "black" }}>
-        <Navbar.Brand as={Link} href="https://flowbite-react.com">
-          <img
-            src="/favicon.svg"
-            className="mr-3 h-6 sm:h-9"
-            alt="Flowbite React Logo"
+        <Navbar.Brand >
+          <Image
+            src="/logo.jpg"
+            className="mr-3 rounded-2xl h-6 sm:h-9"
+            width={50}
+            height={100}
+            alt="Logo"
           />
+          <span className="self-center whitespace-nowrap text-xl  dark:text-white">
+            Megafeed Biotech
+          </span>
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
