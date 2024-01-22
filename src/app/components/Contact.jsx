@@ -35,7 +35,7 @@ const Contact = () => {
                     <div className="lg:w-1/3 mx-auto">
                         <div className="flex flex-wrap -m-2">
                             <div className="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center flex flex-col items-center">
-                                <a className="text-indigo-400">Any Queries Contact - 86053 10918</a>
+                                <a className="text-indigo-400">Any Queries Contact - 93255 07976</a>
 
                                 <a href="#" className="ml-4 text-gray-500 mt-5 cursor-pointer" onClick={openMap}>
                                     <svg fill="#009900" viewBox="0 0 20 20" className="w-10 h-10">
