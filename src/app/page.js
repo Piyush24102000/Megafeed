@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import ProdCTA from "./components/ProdCTA";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Team from "./components/Team";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <HomePics />
       <About />
       <ProdCTA />
+      <Team/>
       <Contact />
     </>
   );

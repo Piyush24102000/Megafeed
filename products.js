@@ -234,3 +234,44 @@ export const products = [
     },
 
 ]
+
+// <div className="mt-6 md:mt-10 xl:mt-14 flex flex-col items-center">
+//             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-y-12 md:gap-y-14 md:gap-x-24 xl:gap-y-0 lg:gap-x-14 ">  
+//               <div className="flex flex-col items-center justify-center space-y-4">
+//                 <div className="w-24">
+//                   <Image
+//                     src="/men.png"
+//                     width={100}
+//                     height={100}
+//                     alt="avatar 1"
+//                   />
+//                 </div>
+//                 <div className="flex flex-col justify-center items-center space-y-2">
+//                   <p className="text-base font-semibold leading-none">
+//                     Mr. Santosh Ugale
+//                   </p>
+//                   <p className="text-sm leading-none text-center">
+//                     Managing Director
+//                   </p>
+//                 </div>
+//               </div>
+//               <div className="flex flex-col items-center  justify-center space-y-4">
+//                 <div className="w-24">
+//                   <Image
+//                     src="/girl.png"
+//                     width={100}
+//                     height={100}
+//                     alt="avatar 2"
+//                   />
+//                 </div>
+//                 <div className="flex flex-col justify-center items-center space-y-2">
+//                   <p className="text-base font-semibold leading-none">
+//                     Miss. Maithilee Ugale
+//                   </p>
+//                   <p className="text-sm leading-none text-center">
+//                     Product Manager and Researcher
+//                   </p>
+//                 </div>
+//               </div>
+//             </div>
+//           </div>
