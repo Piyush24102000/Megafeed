@@ -1,4 +1,4 @@
-const products = [
+export const products = [
     {
         name: "ALL IN ONE",
         contents: "Combination of amino acids and vitamins",
@@ -6,8 +6,10 @@ const products = [
         weight: "1 Ltr",
         mrp: "₹1150/-",
         quantity: "500 ml / 1000 ml",
-        image1: "https://drive.google.com/file/d/1ORTsOfo_3z6lAGjC4bSG0aUig0a35GWZ/view?usp=sharing",
-        image2: "https://drive.google.com/file/d/1HY1Dn0mrIirwVmvwOC4ACGDNaA5Bacmv/view?usp=sharing"
+        images: [
+            "https://res.cloudinary.com/ddnu9xesf/image/upload/v1705911209/allinone1.png",
+            "https://res.cloudinary.com/ddnu9xesf/image/upload/v1705911209/allinone2.png"
+        ]
     },
     {
         name: "ALL IN ONE (Metallic)",
@@ -16,9 +18,11 @@ const products = [
         weight: "1 Ltr",
         mrp: "₹1210/-",
         quantity: "500 ml / 1000 ml",
-        image1: "https://drive.google.com/file/d/1grJaMRdt-nkPlb6gO1HGrShwXw2PPDqX/view?usp=sharing",
-        image2: "https://drive.google.com/file/d/1jfDcgfZDtYNNsV2C7fdZz_jrqwa2sor_/view?usp=sharing",
-        image3: "https://drive.google.com/file/d/1wXbr4y0pMYN_CGTgjtIOBeXazujYyWhK/view?usp=sharing"
+        images: [
+            "https://res.cloudinary.com/ddnu9xesf/image/upload/v1705911342/metallic1.png"
+            , "https://res.cloudinary.com/ddnu9xesf/image/upload/v1705911342/metallic2.png"
+            , "https://res.cloudinary.com/ddnu9xesf/image/upload/v1705911343/metallic3.png"
+        ]
     },
     {
         name: "COMBI MICRO (Chelated liquid micro nutrient)",
@@ -27,9 +31,11 @@ const products = [
         weight: "1 Ltr",
         mrp: "₹899/-",
         quantity: "500 ml / 1 Ltr / 5 Ltr",
-        image1: "https://drive.google.com/file/d/1CINuwvgxN_NpSNw36zxEUnsU5QXTqjlv/view?usp=sharing",
-        image2: "https://drive.google.com/file/d/10O9mZ6FdEBpTOmP_N4lMdi6ewK9TGfHx/view?usp=sharing",
-        image3: "https://drive.google.com/file/d/14is3SJjjx9uKjy6g0Q-gJTEmfjRh99jj/view?usp=sharing"
+        images: [
+            "https://res.cloudinary.com/ddnu9xesf/image/upload/v1705911479/combimicro1.png"
+            , "https://res.cloudinary.com/ddnu9xesf/image/upload/v1705911479/combimicro2.png"
+            , "https://res.cloudinary.com/ddnu9xesf/image/upload/v1705911480/combimicro3.png"
+        ]
     },
     {
         name: "BLOOM 555",
@@ -38,8 +44,10 @@ const products = [
         weight: "250 ml",
         mrp: "₹850/-",
         quantity: "100 ml / 500 ml",
-        image1: "https://drive.google.com/file/d/1G-aU1oJwM3f-auh4gJaHB_InEc_gYt4L/view?usp=sharing",
-        image2: "https://drive.google.com/file/d/1zIfCE_r2ikX9Muc5ifsjfjM06X5u-d5k/view?usp=sharing",
+        images: [
+            "https://res.cloudinary.com/ddnu9xesf/image/upload/v1705911589/Bloom1.png"
+            , "https://res.cloudinary.com/ddnu9xesf/image/upload/v1705911589/Bloom2.png"
+        ]
     },
     {
         name: "BIOSTEEM BIOSTIMULANTS",
@@ -48,8 +56,10 @@ const products = [
         weight: "500 ml",
         mrp: "₹1250/-",
         quantity: "100 ml / 250 ml",
-        image1: "https://drive.google.com/file/d/1n2JSROzuo1xILVsz_jpiSeELuLVNbINR/view?usp=sharing",
-        image2: "https://drive.google.com/file/d/1mQXZVKLXlqGQJKQKVS0qp7aP12lNBOEB/view?usp=sharing",
+        images: [
+            "https://res.cloudinary.com/ddnu9xesf/image/upload/v1705911657/biosteem1.png"
+            , "https://res.cloudinary.com/ddnu9xesf/image/upload/v1705911657/biosteem2.png"
+        ]
     },
     {
         name: " MEGAHUMUS",
@@ -58,18 +68,22 @@ const products = [
         weight: "500 ml",
         mrp: "₹360/-",
         quantity: "500 ml / 1 Ltr / 5 Ltr ",
-        image1: "https://drive.google.com/file/d/1jSeIoBKawUzU-Vj1NR19o9FdhWGxQRFW/view?usp=sharing",
-        image2: "https://drive.google.com/file/d/1K1YwSep6ymgJLjnlCsy_bLaGL0KJYc2y/view?usp=sharing",
+        images: [
+            "https://res.cloudinary.com/ddnu9xesf/image/upload/v1705911734/megahumus1.png"
+            , "https://res.cloudinary.com/ddnu9xesf/image/upload/v1705911734/megahumus2.png"
+        ]
     },
     {
-        name: " ROOTER",
+        name: "ROOTER",
         contents: "Super humate 98% & fulvic acid 1.5%",
         dosage: "1gm/ ltr water",
         weight: "500 gm",
         mrp: "₹1300/-",
         quantity: "100 gm / 250 gm / 500 gm ",
-        image1: "https://drive.google.com/file/d/1FR8XTqV7-miNaV-tUPQyYiAhpq6sD_Ao/view?usp=sharing",
-        image2: "https://drive.google.com/file/d/1yg2B7Wk1XEkHNn1t6Juy7Z2PfOB-9sNt/view?usp=sharing",
+        images: [
+            "https://res.cloudinary.com/ddnu9xesf/image/upload/v1705912017/Rooter1.png",
+            "https://res.cloudinary.com/ddnu9xesf/image/upload/v1705912018/Rooter2.png"
+        ]
     },
     {
         name: " SAMRUDDHI",
@@ -78,8 +92,10 @@ const products = [
         weight: "500 gm",
         mrp: "₹425/-",
         quantity: "100 gm / 250 gm / 500 gm ",
-        image1: "https://drive.google.com/file/d/1ee0n-1z3VHhqMATXdQ1jmJ89IKqU_WJC/view?usp=sharing",
-        image2: "https://drive.google.com/file/d/1MB7f2jiGG9-8HmdM_XyzF5lnNSk_bae6/view?usp=sharing",
+        images: [
+            "https://res.cloudinary.com/ddnu9xesf/image/upload/v1705913818/Samruddhi1.png",
+            "https://res.cloudinary.com/ddnu9xesf/image/upload/v1705913819/Samruddhi2.png"
+        ]
     },
     {
         name: "PICKUP",
@@ -88,8 +104,10 @@ const products = [
         weight: "500 gm",
         mrp: "₹1430/-",
         quantity: "100 gm / 250 gm / 500 gm ",
-        image1: "https://drive.google.com/file/d/1VP3DPS-GYT2E6NbDJmAz-sbKArsMge1c/view?usp=sharing",
-        image2: "https://drive.google.com/file/d/17Bwuu5FgeFmJpQDmig6Lntl1RjweWWrA/view?usp=sharing",
+        images: [
+            "https://res.cloudinary.com/ddnu9xesf/image/upload/v1705914001/pickup2.png",
+            "https://res.cloudinary.com/ddnu9xesf/image/upload/v1705914001/pickup1.png"
+        ]
     },
     {
         name: "LOTUS",
@@ -98,8 +116,9 @@ const products = [
         weight: "500 gm",
         mrp: "₹1350/-",
         quantity: "100 gm / 250 gm / 500 gm ",
-        image1: "https://drive.google.com/file/d/1VP3DPS-GYT2E6NbDJmAz-sbKArsMge1c/view?usp=sharing",
-        image2: "https://drive.google.com/file/d/17Bwuu5FgeFmJpQDmig6Lntl1RjweWWrA/view?usp=sharing",
+        images: ["https://res.cloudinary.com/ddnu9xesf/image/upload/v1705914115/Lotus1.png"
+            , "https://res.cloudinary.com/ddnu9xesf/image/upload/v1705914114/Lotus2.png"
+        ]
     },
     {
         name: "SAMRUDDHI",
@@ -108,18 +127,9 @@ const products = [
         weight: "500 gm",
         mrp: "₹610/-",
         quantity: "100 gm / 250 gm / 500 gm ",
-        image1: "https://drive.google.com/file/d/1TuN3IogLRyAkH2hPCGKl9Xo6phi6yEFs/view?usp=sharing",
-        image2: "https://drive.google.com/file/d/1R_APFauoq-4al4jzVdUso4lL8I23S7Ol/view?usp=sharing",
-    },
-    {
-        name: "SAMRUDDHI",
-        contents: "Chelated mix combination of micronutrients- EDTA Zn 3%, Cu 1%, Fe 2.5%, Mn 1%, B 0.5%, Mo 0.1%",
-        dosage: "Foliar application: 1gm/Ltr water Soil application: 250gm-500gm/acre.",
-        weight: "500 gm",
-        mrp: "₹590/-",
-        quantity: "100 gm / 250 gm / 500 gm ",
-        image1: "https://drive.google.com/file/d/1RPEdGrsJWTsL56Fzmd6wpS0S34eFK30-/view?usp=sharing",
-        image2: "https://drive.google.com/file/d/1fM2nLL6jmlrf5gKCRm2DKyOy8qurNz8q/view?usp=sharing",
+        images: ["https://res.cloudinary.com/ddnu9xesf/image/upload/v1705914196/samchelate2.png"
+            , "https://res.cloudinary.com/ddnu9xesf/image/upload/v1705914194/samchelate1.png"
+        ]
     },
     {
         name: "SAMRUDDHI (Mix micronutrients)",
@@ -128,7 +138,8 @@ const products = [
         weight: "10 kg",
         mrp: "₹895/-",
         quantity: "100 gm / 250 gm / 500 gm ",
-        image1: "https://drive.google.com/file/d/1mMKiqZsjcjE1ngF7fBiiL85FHAQqTq9o/view?usp=sharing",
+        images: ["https://res.cloudinary.com/ddnu9xesf/image/upload/v1705914390/sammix1.png"
+        ]
     },
     {
         name: "MEGAZYME (Granuales)",
@@ -137,8 +148,9 @@ const products = [
         weight: "25 kg",
         mrp: "₹2050/-",
         quantity: "25 kg",
-        image1: "https://drive.google.com/file/d/1T1DJXhaeZyyehNHRNpAG4ZHVUqQ0B9Rf/view?usp=sharing",
-        image2: "https://drive.google.com/file/d/1Igt17wio9z2uPCnbT-G4RcqNDGnigR7V/view?usp=sharing",
+        images: ["https://res.cloudinary.com/ddnu9xesf/image/upload/v1705914438/megazyme%60.png"
+            , "https://res.cloudinary.com/ddnu9xesf/image/upload/v1705914435/megazyme2.png"
+        ]
     },
     {
         name: "SAMRUDHHI (Combi kit)",
@@ -147,8 +159,9 @@ const products = [
         weight: "30 kg",
         mrp: "₹2150/-",
         quantity: "30 kg",
-        image1: "https://drive.google.com/file/d/1pLdVEKAMekyFhtmmNY3Jx82abIrOWhU9/view?usp=sharing",
-        image2: "https://drive.google.com/file/d/1XCHYUroMxtD_Y1AGnstz4QtoNO2pd3HK/view?usp=sharing",
+        images: ["https://res.cloudinary.com/ddnu9xesf/image/upload/v1705914525/samcombi1.png"
+            , "https://res.cloudinary.com/ddnu9xesf/image/upload/v1705914523/samcombi2.png"
+        ]
     },
     {
         name: "MEGAZYME (Liquid)",
@@ -157,8 +170,9 @@ const products = [
         weight: " 1 Ltr",
         mrp: "₹670/-",
         quantity: "500 ml / 1 Ltr",
-        image1: "https://drive.google.com/file/d/1dYy9i-FbRsNsTtHwS6AfC1E0PyR0L5sk/view?usp=sharing",
-        image2: "https://drive.google.com/file/d/14qvEo0zXotFVLi28vC61crRUtbI9r3Ag/view?usp=sharing",
+        images: ["https://res.cloudinary.com/ddnu9xesf/image/upload/v1705914616/zyme1.png"
+            , "https://res.cloudinary.com/ddnu9xesf/image/upload/v1705914622/zyme2.png"
+        ]
     },
     {
         name: "MEGASTICK",
@@ -167,8 +181,9 @@ const products = [
         weight: "250 ml",
         mrp: "₹650/-",
         quantity: "50 ml / 100 ml / 250 ml",
-        image1: "https://drive.google.com/file/d/11VWQ6Dzr9LuCMOZjhsTkmc0HPD0uxtm4/view?usp=sharing",
-        image2: "https://drive.google.com/file/d/1vdMdinu_ExoUsn4p3Jf6IxemBeoY1OM-/view?usp=sharing",
+        images: ["https://res.cloudinary.com/ddnu9xesf/image/upload/v1705914693/megastick1.png"
+            , "https://res.cloudinary.com/ddnu9xesf/image/upload/v1705914693/megastick2.png"
+        ]
     },
     {
         name: "SHOCK PROOF",
@@ -177,9 +192,10 @@ const products = [
         weight: "1 Ltr",
         mrp: "₹800/-",
         quantity: "500 ml / 1 Ltr",
-        image1: "https://drive.google.com/file/d/1B2z3e7LHkZLMjKItcAHE6ShfQL9f7s6E/view?usp=sharing",
-        image2: "https://drive.google.com/file/d/1trRHBEaf4E0ubr9XBfia4Cf6AzUgdjJx/view?usp=sharing",
-        image3: "https://drive.google.com/file/d/15rZkiumEbWrpe6Gz28UmSIaBO6oHNiLe/view?usp=sharing",
+        images: ["https://res.cloudinary.com/ddnu9xesf/image/upload/v1705914781/shock1.png"
+            , "https://res.cloudinary.com/ddnu9xesf/image/upload/v1705914781/shock2.png"
+            , "https://res.cloudinary.com/ddnu9xesf/image/upload/v1705914782/shock3.png"
+        ]
     },
     {
         name: "MEGA POWER(Soya Special)",
@@ -188,9 +204,10 @@ const products = [
         weight: "1 Ltr",
         mrp: "₹670/-",
         quantity: "500 ml / 1 Ltr",
-        image1: "https://drive.google.com/file/d/1ShX953br71Y9UZXMRA_FNmPM9Ep1Kzfx/view?usp=sharing",
-        image2: "https://drive.google.com/file/d/1UIAtW4o2zpn0qhiQFiIaXVTiupkK1oyR/view?usp=sharing",
-        image3: "https://drive.google.com/file/d/1jC09tNf526kE18GzPmJ3c9ois23tPCkv/view?usp=sharing",
+        images: ["https://res.cloudinary.com/ddnu9xesf/image/upload/v1705914871/zmegapower1.png"
+            , "https://res.cloudinary.com/ddnu9xesf/image/upload/v1705914872/zmegapower2.png"
+            , "https://res.cloudinary.com/ddnu9xesf/image/upload/v1705914872/zmegapower3.png"
+        ]
     },
     {
         name: "MAGIC POWER",
@@ -199,8 +216,9 @@ const products = [
         weight: "100 ml",
         mrp: "₹1175/-",
         quantity: "25ml & 50 ml",
-        image1: "https://drive.google.com/file/d/1A52dKhUcUY77lj8ym0z3hBLqxkAiJPuk/view?usp=sharing",
-        image2: "https://drive.google.com/file/d/1y3crg8Y00HSTxATw1da6C3NyhxtnaWEt/view?usp=sharing",
+        images: ["https://res.cloudinary.com/ddnu9xesf/image/upload/v1705914970/power1.png"
+            , "https://res.cloudinary.com/ddnu9xesf/image/upload/v1705914972/power2.png"
+        ]
     },
     {
         name: "COMBI MICRO LIQUID (Cotton special)",
@@ -209,9 +227,10 @@ const products = [
         weight: "1 Ltr",
         mrp: "₹725/-",
         quantity: "500 ml / 1 Ltr",
-        image1: "https://drive.google.com/file/d/1NATnGiZmyidr77tDxVMU6hjVziyL6u-q/view?usp=sharing",
-        image2: "https://drive.google.com/file/d/1-E9Bi-0kKfsYQvWghao53THhnnjai1Ha/view?usp=sharing",
-        image3: "https://drive.google.com/file/d/1nG2vj3oimI0RvvcQ59Hu3_xOOl-Bc1Ta/view?usp=sharing",
+        images: ["https://res.cloudinary.com/ddnu9xesf/image/upload/v1705915078/comiliquid1.png"
+            , "https://res.cloudinary.com/ddnu9xesf/image/upload/v1705915078/comiliquid3.png"
+            , "https://res.cloudinary.com/ddnu9xesf/image/upload/v1705915077/comiliquid2.png"
+        ]
     },
 
 ]

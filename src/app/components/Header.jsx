@@ -8,20 +8,20 @@ const Header = () => {
   return (
     <div>
       <Navbar fluid rounded style={{ backgroundColor: "black" }}>
-        <Navbar.Brand >
-          <Image
-            src="/logo.jpg"
-            className="mr-3 rounded-2xl h-6 sm:h-9"
-            width={50}
-            height={100}
-            alt="Logo"
-          />
+        <Navbar.Brand className="mx-auto">
+            <Image
+              src="/logo.jpg"
+              className="mr-3 rounded-2xl h-6 sm:h-9"
+              width={50}
+              height={70}
+              alt="Logo"
+            />
           <span className="self-center whitespace-nowrap text-xl  dark:text-white">
             Megafeed Biotech
           </span>
         </Navbar.Brand>
-        <Navbar.Toggle />
-        <Navbar.Collapse>
+        {/* <Navbar.Toggle /> */}
+        {/* <Navbar.Collapse>
           <Navbar.Link href="#" className="text-cyan-500		">
             Home
           </Navbar.Link>
@@ -37,7 +37,7 @@ const Header = () => {
           <Navbar.Link href="#" className="text-cyan-500		">
             Contact
           </Navbar.Link>
-        </Navbar.Collapse>
+        </Navbar.Collapse> */}
       </Navbar>
     </div>
   );

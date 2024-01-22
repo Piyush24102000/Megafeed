@@ -4,16 +4,16 @@ const About = () => {
   return (
     <div>
       {/* About Us Features */}
-      <div className="container px-5 py-24 mx-auto">
+      <div className="container px-5 py-16 mx-auto">
         <div className="text-center mb-20">
           <h1 className="sm:text-3xl text-2xl font-medium title-font text-white mb-4">
-            मेगाफीड बायोटेकचं का निवडावे
+            Why choose Megafeed Biotech ?
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-400 text-opacity-80">
-            "मेगाफिड बायोटेकसह संवर्धित करा आपल्या फसले – उत्कृष्ट खतांसाठी आपला
-            विश्वासनीय सहकारी, प्रचंड पिकाच्या उपायोगांसाठी आणि हरित
-            भविष्यासाठी."
+            " Our commitment to cutting-edge research, sustainable solutions, and quality fertilizers ensures your crops receive the nourishment they deserve.
+             With a legacy built on innovation and a passion for agriculture, we stand as your trusted partner in cultivating a flourishing future. "
           </p>
+          
           <div className="flex mt-6 justify-center">
             <div className="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
           </div>
