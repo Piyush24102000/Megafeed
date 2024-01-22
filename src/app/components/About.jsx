@@ -10,8 +10,8 @@ const About = () => {
             Why choose Megafeed Biotech ?
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-400 text-opacity-80">
-            " Our commitment to cutting-edge research, sustainable solutions, and quality fertilizers ensures your crops receive the nourishment they deserve.
-             With a legacy built on innovation and a passion for agriculture, we stand as your trusted partner in cultivating a flourishing future. "
+            Our commitment to cutting-edge research, sustainable solutions, and quality fertilizers ensures your crops receive the nourishment they deserve.
+             With a legacy built on innovation and a passion for agriculture, we stand as your trusted partner in cultivating a flourishing future.
           </p>
           
           <div className="flex mt-6 justify-center">

@@ -23,7 +23,7 @@ const ProdCTA = () => {
                       role="heading"
                       className="text-2xl xl:text-4xl font-semibold leading-6 xl:leading-10 text-white"
                     >
-                      Explore Megafeed's Innovative Products
+                      Explore Megafeed Innovative Products
                     </h3>
                     <p
                       role="contentinfo"
@@ -32,7 +32,7 @@ const ProdCTA = () => {
                       At Megafeed, we are specialized in providing high-quality
                       fertilizers to empower agricultural success. Our
                       fertilizers are meticulously crafted to enhance soil
-                      fertility and promote healthy plant growth. Whether you're
+                      fertility and promote healthy plant growth. Whether you are
                       a large-scale farmer or a home gardener, Megafeed
                       Fertilizers offers state-of-the-art solutions to ensure
                       great harvests and sustainable agriculture.
